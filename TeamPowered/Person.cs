@@ -3,12 +3,11 @@
 /// <summary>
 /// Summary description for Class1
 /// </summary>
-public class Class1
+namespace TeamPowered
 {
-	public Class1()
+	class Person
 	{
-		//
-		// TODO: Add constructor logic here
-		//
+		public string Name { get; set; }
+		public string Address { get; set; }
 	}
 }
